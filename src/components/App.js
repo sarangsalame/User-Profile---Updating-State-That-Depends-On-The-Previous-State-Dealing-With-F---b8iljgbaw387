@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 import { UserProfile } from './UserProfile';
 
-export const data = React.createContext();
+const UserContext = React.createContext();
 const App = () => {
 
   return (
@@ -16,4 +16,4 @@ const App = () => {
 
 
 export default App;
-// export {UserContext}
+export {UserContext}
