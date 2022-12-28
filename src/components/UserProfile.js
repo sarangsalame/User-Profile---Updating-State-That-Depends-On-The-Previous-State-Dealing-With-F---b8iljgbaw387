@@ -1,9 +1,9 @@
 import { useContext } from 'react'
 import React from 'react'
-import { data } from "./App"
+import { UserContext } from "./App"
 
 const UserProfile = () =>{
-const dataVal=useContext(data);
+const dataVal=useContext(UserContext);
   return (
     <>
     <h1 id="name">{dataVal.name}</h1>
